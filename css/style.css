@@ -392,6 +392,7 @@ p {
 }
 .latest-work .section-width {
   position: relative;
+  z-index: 1;
 }
 
 .latest-work .section-width:before {
@@ -403,6 +404,7 @@ p {
   height: 100%;
   border-bottom: 1px solid #edeef0;
   margin-bottom: -78px;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 992px) {
